@@ -46,14 +46,14 @@ passwd intern2
 useradd ram
 passwd ram
 
-# Now create couple of files inside each of the users' /home dir for testing purpose
+# Now create couple of files inside each of the user /home dir for testing purpose
 
 cd /home/hr
 touch h1 h2
 
 # Likewise do it for rest of the users
 
-# Now let's configure the conf file of ftp server i.e., vsftpd.conf
+# Now let us configure the conf file of ftp server i.e., vsftpd.conf
 
 vi /etc/vsftpd/vsftpd.conf
 
@@ -82,20 +82,20 @@ userlist_deny=YES
 
 # Save & close the file 
 
-# Now add user ram to user_list & ftpuser file
+# Now add user "ram" to user_list & ftpuser file
 
 cd /etc/vsftpd
 vi user_list
-# Add user ram at the end of the list and save & close it, similarly
+# Add user "ram" at the end of the list and save & close it, similarly
 cd /etc/vsftpd
 vi ftpusers
-# Add user ram at the end of the list and save & close it
+# Add user "ram" at the end of the list and save & close it
 
-# Now add users intern1 & intern2 in chroot_list for that create a chroot_list file
+# Now add users "intern1" & "intern2" in chroot_list for that create a chroot_list file
 
 cd /etc/vsftpd
 vi chroot_list
-# Add users intern1 & intern2
+# Add users "intern1" & "intern2"
 
 # At last add ftp service to firewall & reload firewall
 
