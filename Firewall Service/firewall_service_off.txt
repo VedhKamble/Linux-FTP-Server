@@ -1,1 +1,0 @@
-cockpit dhcpv6-client nfs samba ssh
