@@ -1,0 +1,14 @@
+● vsftpd.service - Vsftpd ftp daemon
+     Loaded: loaded (/usr/lib/systemd/system/vsftpd.service; enabled; preset: disabled)
+     Active: active (running) since Wed 2026-06-17 00:00:16 IST; 26s ago
+ Invocation: 0c98b5d88f32435f83f661ac30ae2ad2
+    Process: 3032 ExecStart=/usr/sbin/vsftpd /etc/vsftpd/vsftpd.conf (code=exited, status=0/SUCCESS)
+   Main PID: 3033 (vsftpd)
+      Tasks: 1 (limit: 47557)
+     Memory: 1M (peak: 1.5M)
+        CPU: 8ms
+     CGroup: /system.slice/vsftpd.service
+             └─3033 /usr/sbin/vsftpd /etc/vsftpd/vsftpd.conf
+
+Jun 17 00:00:16 vardan.com systemd[1]: Starting vsftpd.service - Vsftpd ftp daemon...
+Jun 17 00:00:16 vardan.com systemd[1]: Started vsftpd.service - Vsftpd ftp daemon.

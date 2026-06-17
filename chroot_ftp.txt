@@ -1,0 +1,11 @@
+257 "/" is the current directory
+Local directory now /root
+Failed to change directory.
+drwx------    3 1005     1005          127 Jun 16 19:48 .
+drwx------    3 1005     1005          127 Jun 16 19:48 ..
+-rw-r--r--    1 1005     1005           18 Oct 29  2024 .bash_logout
+-rw-r--r--    1 1005     1005          144 Oct 29  2024 .bash_profile
+-rw-r--r--    1 1005     1005          522 Oct 29  2024 .bashrc
+-rw-r--r--    1 1005     1005            0 Jun 16 19:48 anon1
+-rw-r--r--    1 1005     1005            0 Jun 13 19:37 interfile1
+-rw-r--r--    1 0        0               0 Jun 13 19:38 linintern1

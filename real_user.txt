@@ -1,0 +1,10 @@
+257 "/home/sales1" is the current directory
+Local directory now /root
+drwx------    3 1002     1002          108 Jun 16 19:36 .
+drwxr-xr-x   10 0        0             108 Jun 13 19:45 ..
+-rw-r--r--    1 1002     1002           18 Oct 29  2024 .bash_logout
+-rw-r--r--    1 1002     1002          144 Oct 29  2024 .bash_profile
+-rw-r--r--    1 1002     1002          522 Oct 29  2024 .bashrc
+-rw-r--r--    1 1002     1002            0 Jun 13 19:22 sale1file
+-rw-r--r--    1 0        0               0 Jun 16 19:33 sale2
+257 "/boot" is the current directory
