@@ -6,7 +6,7 @@
 
 systemctl status vsftpd.service
 
-# If it shows 'service not found' then install it with yum/dnf
+# If it shows "service not found" then install it with yum/dnf
 
 # Before installing check whether your system contains the rpm packages of ftp server
 
@@ -82,16 +82,16 @@ userlist_deny=YES
 
 # Save & close the file 
 
-# Now add user 'ram' to user_list & ftpuser file
+# Now add user ram to user_list & ftpuser file
 
 cd /etc/vsftpd
 vi user_list
-# Add user 'ram' at the end of the list and save & close it, similarly
+# Add user ram at the end of the list and save & close it, similarly
 cd /etc/vsftpd
 vi ftpusers
-# Add user 'ram' at the end of the list and save & close it
+# Add user ram at the end of the list and save & close it
 
-# Now add users 'intern1' & 'intern2' in chroot_list for that create a chroot_list file
+# Now add users intern1 & intern2 in chroot_list for that create a chroot_list file
 
 cd /etc/vsftpd
 vi chroot_list
@@ -106,4 +106,4 @@ firewall-cmd --reload
 
 systemctl restart vsftpd
 
-# All set and you're good to go
+# All set and you are good to go
